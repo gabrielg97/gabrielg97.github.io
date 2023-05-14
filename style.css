@@ -3,7 +3,10 @@ ul{
     margin:0;
     padding:0;
     overflow:hidden;
-    background-color:#333;
+    background-color:#af2626;
+    position:fixed;
+    top:0;
+    width:100%;
 }
 
 li{
@@ -11,10 +14,13 @@ li{
 }
 
 li a{
-
+    display:block;
+    color:white;
+    text-align:center;
+    padding:5px 20px;
+    text-decoration:none;
 }
 
-a {
-    padding: 20px;
-    background-color: #dddddd;
+li a:hover {
+    background-color: #8d1f1f;
   }
