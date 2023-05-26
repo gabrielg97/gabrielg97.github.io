@@ -1,4 +1,8 @@
-ul{
+body{
+    background-color:#F6F6F6;
+}
+
+.menu{
     list-style-type:none;
     margin:0;
     padding:0;
@@ -9,11 +13,13 @@ ul{
     width:100%;
 }
 
-li{
+.menu-item{
     float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
-li a{
+.menu-item a{
     display:block;
     color:white;
     text-align:center;
@@ -23,4 +29,18 @@ li a{
 
 li a:hover {
     background-color: #8d1f1f;
-  }
+}
+
+.grid-container{
+    display:grid;
+    padding:20px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item{
+    padding:10px;
+}
+
+.profile{
+
+}
