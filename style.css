@@ -1,5 +1,11 @@
 body{
     background-color:#F6F6F6;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding:25px;
+    text-align: center;
 }
 
 .menu{
@@ -15,7 +21,6 @@ body{
 
 .menu-item{
     float:left;
-    font-family:Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
@@ -31,13 +36,17 @@ li a:hover {
     background-color: #8d1f1f;
 }
 
-.grid-container{
+.bio-container{
+    text-align:center;
+}
+
+.contacts-grid-container{
     display:grid;
     padding:20px;
     grid-template-columns: auto auto auto auto;
 }
 
-.grid-item{
+.contacts-grid-item{
     padding:10px;
 }
 
