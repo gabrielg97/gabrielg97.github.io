@@ -3,7 +3,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1, h2{
     padding:25px;
     text-align: center;
 }
@@ -40,10 +40,14 @@ li a:hover {
     text-align:center;
 }
 
+
+
 .contacts-grid-container{
-    display:inline-grid;
+    display:grid;
     padding:20px;
-    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
 }
 
 .contacts-grid-item{
