@@ -38,10 +38,12 @@ li a:hover {
 
 .bio-container{
     text-align:center;
+    background-color: #a52a2a;
+    color:white;
 }
 
 .skills-list{
-
+    text-color:white;
 }
 
 .contacts-grid-container{
