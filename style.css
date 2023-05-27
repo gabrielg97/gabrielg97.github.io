@@ -50,6 +50,17 @@ li a:hover {
     padding:5px;
 }
 
+
+
+/*
+.bio-item{
+    display:grid;
+    padding:10px;
+    justify-content:center;
+    align-content: center;
+    grid-auto-flow: column;
+}
+*/
 .contacts-grid-container{
     display:grid;
     padding:5px;
