@@ -42,16 +42,17 @@ li a:hover {
     color:white;
 }
 
-.skills-list{
-    text-color:white;
-}
-
 .contacts-grid-container{
     display:grid;
     padding:20px;
     justify-content: center;
     align-content: center;
     grid-auto-flow: column;
+}
+
+.skills-container{
+    background-color: #a52a2a;
+    color:white;
 }
 
 .contacts-grid-item{
