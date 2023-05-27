@@ -54,6 +54,9 @@ li a:hover {
     grid-auto-flow: column;
 }
 
+.contacts-grid-item{
+    padding:10px;
+}
 .skills-container{
     background-color: #a52a2a;
     color:white;
@@ -64,8 +67,17 @@ li a:hover {
     list-style-type: none;
 }
 
-.contacts-grid-item{
-    padding:10px;
+.projects-grid-container{
+    display:grid;
+    padding:20px;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+}
+
+.projects-grid-item{
+    margin: 10px;
+    background-color:#f5f5dc;
 }
 
 .footer-container{
