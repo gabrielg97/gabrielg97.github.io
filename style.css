@@ -58,3 +58,13 @@ li a:hover {
 .contacts-grid-item{
     padding:10px;
 }
+
+.footer-container{
+    background-color: #2F4F4F;
+    color: white;
+}
+
+.footer-container a{
+    color: white;
+    text-decoration:none;
+}
